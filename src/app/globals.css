@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { background: #0A0F2C; color: #fff; }
+
+.hindi-text { font-family: 'Noto Sans Devanagari', sans-serif; }
+
+.gradient-text {
+  background: linear-gradient(135deg, #FF9933 0%, #ffffff 50%, #138808 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.chat-bubble-user {
+  background: linear-gradient(135deg, #FF9933, #E8881F);
+  border-radius: 18px 18px 4px 18px;
+}
+
+.chat-bubble-saathi {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 18px 18px 18px 4px;
+}
+
+.glow-saffron {
+  box-shadow: 0 0 40px rgba(255, 153, 51, 0.15);
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #111830; }
+::-webkit-scrollbar-thumb { background: #FF9933; border-radius: 3px; }
